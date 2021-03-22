@@ -1,6 +1,6 @@
 {
   "name": "eth-json-rpc-middleware",
-  "version": "6.0.0",
+  "version": "7.0.0",
   "main": "./dist/block-ref.js",
   "types": "./dist/*.d.ts",
   "engines": {
