@@ -2,6 +2,7 @@
   "name": "eth-json-rpc-middleware",
   "version": "6.0.0",
   "main": "./dist/block-ref.js",
+  "types": "./dist/*.d.ts",
   "engines": {
     "node": ">=10.0.0"
   },
@@ -12,12 +13,14 @@
     "build": "rm -rf ./dist && tsc --project .",
     "lint": "eslint . --ext ts,js,json",
     "lint:fix": "yarn lint --fix",
-    "test": "yarn build && node test/index.js"
+    "test": "yarn build && node test/index.js",
+    "prepublish": "npx tsc --project ."
   },
   "author": "",
   "license": "ISC",
   "files": [
-    "dist/"
+    "dist/*.js",
+    "dist/*.d.ts"
   ],
   "devDependencies": {
     "@metamask/eslint-config": "^4.1.0",
