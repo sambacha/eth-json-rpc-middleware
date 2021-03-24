@@ -2,13 +2,10 @@
   "name": "eth-json-rpc-middleware",
   "version": "7.0.0",
   "main": "./dist/block-ref.js",
-<<<<<<< HEAD
   "types": "./dist/*.d.ts",
-=======
   "browser": {
     "node-fetch": false
   },
->>>>>>> a40713e5df478bf376d1a9260671c65e436db07a
   "engines": {
     "node": ">=10.0.0"
   },
